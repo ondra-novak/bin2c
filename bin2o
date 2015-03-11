@@ -7,7 +7,7 @@ BASEPATH=`dirname $0`
 if [ "$2" = "" ] ; then 
     echo "Converts binary file to object file which can be linked to the executable as resource"
     echo ""
-    cat "$BASEPATH/LICENCE"
+    cat "$BASEPATH/LICENSE"
     echo ""
     echo "Usage: $0 <file> <identifier> [<output>] [<header file>]"
     echo ""
